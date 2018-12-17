@@ -63,7 +63,8 @@
 </div>
 
     
- <div class="ui container">  
+ <div class="ui container"> 
+     <h2></h2>
      <h1 class="header">What We Do?</h1>
     <h2>Delivering technical support on Windows and Windows platform based software, applications, drivers and devices.</h2>
      <div class="ui divider"></div>
@@ -134,61 +135,20 @@
     <h3>Inteliqo is working towards making troubleshooting of systems making more AI (Artificial intelligence ) focused. The AI + human touch will sync in the expertise of live agents with virtual agents to ramp up solutions and lower the costs.</h3>
    
     
-<div class="ui grid equal width">
-  <div class="sixteen wide mobile eight wide tablet four wide computer column">
+<div class="ui grid width">
+  <div class="sixteen wide mobile eight wide tablet eight wide computer column">
        <img class="ui centered medium circular image" src="./images/square-image.png">
-      <h2 class="ui centered">Diagnosis and repair</h2>
-    <p>Sometimes, diagnosis could be very time-consuming and you exactly don’t know what actually the fault is there in your computer, we are happy to help. You are no longer helpless when you have our remote assistants at your help.</p>
+ <h3 class="ui centered"></h3>
+    <p>It seamlessly gives consumers the right information; they need at the right time by offering self-service options, eliminating the need for a call to customer centre.</p>
  
   </div>
-  <div class="sixteen wide mobile eight wide tablet four wide computer column">
+  <div class="sixteen wide mobile eight wide tablet eight wide computer column">
        <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Virus removal</h2>
-    <p>Viruses and malwares are worst thing can happen to your computer. They make our computers idle and useless. Sometimes they cause data removal or such type of horrible things when our data is confidential and so crucial. But don’t worry, if you face such troubles, you can simply contact our remote assistant and get the virus removed from your computer.</p>
+       <h3 class="ui centered"></h3>
+    <p>AI gives customer service representatives more information to help them handle the complicated issues that self-service cannot resolve, since its more data driven.</p>
  
   </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Troubleshooting</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Installation and Configuration</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Mail Setup</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Backup and Restore</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Optimization</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">System Update</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Data Privacy</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
+  
 </div>
     </div>
     </div>
@@ -197,33 +157,10 @@
 
 <div class="ui  vertical footer segment">
   <div class="ui center aligned container">
-    <div class="ui stackable grid">
-      <div class="three wide column">
-        <h4 class="ui header">Community</h4>
-        <div class="ui link list">
-          <a class="item" href="https://www.transifex.com/organization/semantic-org/" target="_blank">Help Translate</a>
-        </div>
-      </div>
-      <div class="three wide column">
-        <h4 class="ui header">Network</h4>
-        <div class="ui link list">
-          <a class="item" href="https://github.com/Semantic-Org/Semantic-UI" target="_blank">GitHub Repo</a>
-        </div>
-      </div>
-      <div class="seven wide right floated column">
-        <h4 class="ui header">Help Preserve This Project</h4>
-        <p> Support for the continued development of Semantic UI comes directly from the community.</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="7ZAF2Q8DBZAQL">
-          <button type="submit" class="ui large teal button">Donate Today</button>
-        </form>
-      </div>
-    </div>
     <div class="ui section divider"></div>
     <img src="./images/logo.png" class="ui centered mini image">
     <div class="ui horizontal small divided link list">
-      <a class="item" href="http://semantic-ui.mit-license.org/" target="_blank">Free &amp; Open Source (MIT)</a>
+      <a class="item">© 2018 All Rights Reserved; Ascentreck.com Terms & Conditions</a>
     </div>
   </div>
 </div>
