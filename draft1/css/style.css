@@ -5,7 +5,7 @@ Author: yaminncco
 Colors:
 	Body 		  : #868F9B
 	Headers 	: #10161A
-	Primary 	: #6195FF
+	Primary 	: #6195FF #272264 #386398
 	Dark      : #FCFCFF
 	Grey 		  : #F4F4F4 #FAFAFA #EEE
 
@@ -1699,7 +1699,7 @@ header {
     -webkit-transform: scale(0);
         -ms-transform: scale(0);
             transform: scale(0);
-    border-radius:50%;
+            border-radius:50%;
 }
 
 .preloader span:nth-child(1) {
@@ -1718,6 +1718,16 @@ header {
 }
 
 .preloader span:nth-child(4) {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+}
+
+.preloader span:nth-child(5) {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+}
+
+.preloader span:nth-child(6) {
     -webkit-animation-delay: 0.2s;
             animation-delay: 0.2s;
 }
