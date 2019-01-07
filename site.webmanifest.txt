@@ -1,0 +1,13 @@
+{
+    "name": "Ascentreck",
+    "short_name": "Ascentreck",
+    "lang": "en",
+    "theme_color": "#272264",
+    "description": "",
+    "icons": [{
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "img/png"
+    }],
+    "start_url": "/"
+}
