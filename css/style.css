@@ -1691,7 +1691,7 @@ header {
 }
 .preloader span {
     display: inline-block;
-    background-color: #6195FF;
+    background-color: #272264;
     width: 25px;
     height: 25px;
     -webkit-animation: 1s preload ease-in-out infinite;
