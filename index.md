@@ -1,180 +1,475 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta>
     <title>Ascentreck</title>
-        <link rel="stylesheet" type="text/css" class="ui" href="./css/semantic.min.css">
-        <link rel="stylesheet" type="text/css" href="./css/home.css">
+	<meta charset="utf-8" name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="icon.png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
-<body id="example" class="index pushable" ontouchstart="">
 
-<div class="pusher">
-<div class="full height">
- <div class="following bar">
-  <div class="ui container">
-    <div class="ui large secondary network menu inverted">
-      <div class="item">
-        <div class="ui logo shape">
-          <div class="sides">
-            <div class="active ui side">
-              <img class="ui image" src="./images/logo.png">
+<body>
+	
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./images/hero/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="images/logo.png" alt="logo">
+							<img class="logo-alt" src="images/logo-alt.png" alt="logo">
+						</a>
+					</div>
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#service">Services</a></li>
+					<li><a href="#ChooseUs">Choose Us</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">We Make It Better</h1>
+<!--
+							<p class="white-text">Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+							</p>
+-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+<!-- About -->
+	<div id="about" class="section md-padding">
+		<div class="container">
+			<div class="row">
+				<div class="section-header text-center">
+					<h2 class="title">What we do!</h2>
+                </div>
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-magic"></i>
+						<h3>Data Storage Maintenance & Sevices</h3>
+						<p>We provide easier adopt solutions & Security for our enterprise client to manage their business-critical data.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-cogs"></i>
+						<h3>Network administration & security</h3>
+						<p>Transmute multifaceted connectivity into simple and manageable networks Established with Enterprise standard equipment across Switching, Routing, Wireless, Firewall, Video-voice, servers, Hyper-V solutions.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-mobile"></i>
+						<h3>AV Infrastructure</h3>
+						<p>No matter what the scale of your infrastructure, Ascentreck Team can seamlessly participate into your solution and provide a range of quality AV services that will enhance your Infrastructure.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-cogs"></i>
+						<h3>Cyber Security</h3>
+						<p>In this digitalization world, need a unified security strategy – and one which evolves repeatedly in the look of changing digital opportunities and intimidations. From initial consultancy and analysis, through to implementation and ongoing management, we helps you every step of the way.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-magic"></i>
+						<h3>Surveillance Security & Solutions</h3>
+						<p>MWe entirely understand the importance of providing effective solutions on-time and within financial plan. Our operation of proven methodologies and techniques, based on well-defined processes. Standards-based solutions, technical expertise keys to our success in assisting clients efficiently manage risk and protect business-critical data.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-mobile"></i>
+						<h3>Cloud Solutions</h3>
+						<p>In today’s digitalization world our team helps to provide clouds enable solutions to organizations to focus on their core businesses instead of expending resources on premises infrastructure and maintenance according to their requirement.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- /About -->
+
+
+<!-- Portfolio -->
+	<div id="portfolio" class="section md-padding bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="section-header text-center">
+					<h2 class="title">Featured Works</h2>
+				</div>
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./images/work1.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<h3>Network administration</h3>
+						<div class="work-link">
+							<a class="lightbox" href="./images/work1.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./images/work2.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<h3>Data Storage Maintenance</h3>
+						<div class="work-link">
+							<a class="lightbox" href="./images/work2.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./images/work3.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<h3>AV Infrastructure</h3>
+						<div class="work-link">
+							<a class="lightbox" href="./images/work3.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./images/work4.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<h3>Cyber Security</h3>
+						<div class="work-link">
+							<a class="lightbox" href="./images/work4.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./images/work5.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<h3>Surveillance Security</h3>
+						<div class="work-link">
+							<a class="lightbox" href="./images/work5.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./images/work6.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<h3>Cloud Solutions</h3>
+						<div class="work-link">
+							<a class="lightbox" href="./images/work6.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- /Portfolio -->
+
+<!-- Service -->
+	<div id="service" class="section md-padding">
+		<div class="container">
+			<div class="row">
+				<div class="section-header text-center">
+					<h2 class="title">What we Offer</h2>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-diamond"></i>
+						<h3>Remote Tech Support</h3>
+						<p>We make technology easier for you with instant support.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-rocket"></i>
+						<h3>Self Help</h3>
+						<p>Find instant solutions for your technical issues.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-cogs"></i>
+						<h3>Infrastructure</h3>
+						<p>Technology infrastructure such as load balancers and firewalls.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-flask"></i>
+						<h3>Content Delivery</h3>
+						<p>Platforms for publishing content such as a content delivery network</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-pencil"></i>
+						<h3>Information Security</h3>
+						<p>Information security services such as a proxy that blocks suspicious requests to a service.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-diamond"></i>
+						<h3>Data Synchronization</h3>
+						<p>Synchronization of data across devices such as a service that syncs your contacts and photos on your mobile and home devices.</p>
+					</div>
+				</div>                
+			</div>
+		</div>
+	</div>
+<!-- /Service -->
+
+
+<!-- Why Choose Us -->
+	<div id="ChooseUs" class="section md-padding bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="">
+						<h2 class="title">Why Choose Us</h2>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p><b>Quick response</b> – Emergency response time is one hour or less guaranteed.A live person will answer your call, or you can enter a service ticket yourself online with our streamlined service ticket system. We can log in to your PC or server remotely and resolve many issues immediately without the wait for a technician to travel to your location.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p><b>Experienced</b> - We hire only seasoned, professional technicians with at least 5-10 years experience and usually many more.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p><b>One Stop Shop</b> – We handle all aspects of your IT infrastructure including hardware and software management, vendor relationships for your internet connectivity, website management, and maintenance renewals, and any other related technology needs. We focus on your IT so you can focus on your business.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p><b>Proactive</b> – Our service philosophy is proactive, not reactive. With state-of- the-art network monitoring and management, we manage your network 24/7 to identify issues and address them BEFORE they become problems, rather than putting out fires.</p>
+					</div>
+                    <div class="feature">
+						<i class="fa fa-check"></i>
+						<p><b>100% Satisfaction Guarantee</b> – We want you to be completely satisfied with our services. We will do whatever it takes to make you happy. No hassles, no problems.</p>
+					</div>
+				</div>
+
+				<!-- About slider -->
+				<div class="col-md-6">
+					<div id="about-slider" class="owl-carousel owl-theme">
+						<img class="img-responsive" src="./images/about1.jpg" alt="">
+						<img class="img-responsive" src="./images/about2.jpg" alt="">
+						<img class="img-responsive" src="./images/about3.jpg" alt="">
+						<img class="img-responsive" src="./images/about4.jpg" alt="">
+					</div>
+				</div>
+				<!-- /About slider -->
+
+			</div>
+		</div>
+	</div>
+<!-- /Why Choose Us -->
+
+<!-- Numbers -->
+    
+	<div id="numbers" class="section sm-padding">
+		<div class="bg-img" style="background-image: url('./images/hero/background2.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-users"></i>
+						<h3 class="white-text"><span class="counter">51</span></h3>
+						<span class="white-text">Happy clients</span>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-trophy"></i>
+						<h3 class="white-text"><span class="counter">5</span></h3>
+						<span class="white-text">Awards won</span>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-coffee"></i>
+						<h3 class="white-text"><span class="counter">100</span>K</h3>
+						<span class="white-text">Cups of Coffee</span>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-file"></i>
+						<h3 class="white-text"><span class="counter">45</span></h3>
+						<span class="white-text">Projects completed</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+<!-- /Numbers -->
+
+
+<!-- Contact -->
+    
+	<div id="contact" class="section md-padding">
+		<div class="container">
+			<div class="row">
+				<div class="section-header text-center">
+					<h2 class="title">Get in touch</h2>
+				</div>
+				<div class="col-sm-4">
+					<div class="contact">
+                        <a href="tel:+0124 4267220">
+                            <i class="fa fa-phone"></i></a>
+						<h3>Phone</h3>
+						<a href="tel:+0124 4267220">
+                            <p>0124 4267220</p></a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="contact">
+                        <a href="mailto:info@ascentreck.com?subject=&body=">
+                            <i class="fa fa-envelope"></i></a>
+						<h3>Email</h3>
+                        <a href="mailto:info@ascentreck.com?subject=&body=">
+                            <p>info@ascentreck.com</p></a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="contact">
+                        <a href="https://goo.gl/maps/X6uUb7sVeJG2" target="_blank">
+						<i class="fa fa-map-marker"></i></a>
+						<h3>Address</h3>
+                        <a href="https://goo.gl/maps/X6uUb7sVeJG2" target="_blank">
+                            <p>C-215, SUSHANT SHOPPING ARCADE<br>Sushant lok Phase l, Sector-27<br>Gurugram Haryana 122009</p></a>
+					</div>
+				</div>
+				<div class="col-md-8 col-md-offset-2">
+					<form class="contact-form">
+						<input type="text" class="input" placeholder="Name">
+						<input type="email" class="input" placeholder="Email">
+						<input type="text" class="input" placeholder="Subject">
+						<textarea class="input" placeholder="Message"></textarea>
+						<button class="main-btn">Send message</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+<!-- /Contact -->
+    
+
+<!-- Footer -->
+    
+	<footer id="footer" class="sm-padding bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer-logo">
+						<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+					</div>
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+					<div class="footer-copyright">
+						<p>Copyright © 2019. All Rights Reserved. Designed by <a href="http://ascentreck.com/" target="_blank">Ascentreck</a></p>
+					</div>
+				</div>
             </div>
-          </div>
-        </div>
-      </div>
-     
-    <a class="active item view-ui">Home</a>
-    <a class="item">Services</a>
-    <a class="item">AI</a>
-    <a class="item">Clients</a>
-    <a class="item">Plans</a>
-    <a class="item">About</a>
-    <a class="item">Contact Us</a>
-    </div>
-  </div>
-</div>
-<div class="masthead segment bg7">
-  <div class="ui container">
-    <div class="introduction">
-<!--
-      <a class="ui black version label" href="https://github.com/Semantic-Org/Semantic-UI/blob/master/RELEASE-NOTES.md">
-        2.4.2
-      </a>
--->
-      <h1 class="ui inverted header">
-        <span class="library">
-          We Help Companies and Companions
-        </span>
-        <span class="tagline">
-          User Interface is the language of the web
-        </span>
-      </h1>
-      <div class="ui hidden divider"></div>
-
-<!--
-      <a href="https://semantic-ui.com/introduction/getting-started.html" class="ui huge inverted download button">
-        Get Started
-      </a>
-      <a href="https://semantic-ui.com/introduction/new.html" class="ui huge inverted basic button">New in 2.4</a>
--->
-    </div>
-  </div>
-</div>
-</div>
-
+		</div>
+	</footer>
     
- <div class="ui container"> 
-     <h2></h2>
-     <h1 class="header">What We Do?</h1>
-    <h2>Delivering technical support on Windows and Windows platform based software, applications, drivers and devices.</h2>
-     <div class="ui divider"></div>
-     <div class="ui center aligned container ">
-<div class="ui grid equal width">
-  <div class="sixteen wide mobile eight wide tablet four wide computer column">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-      <h2 class="ui centered">Diagnosis and repair</h2>
-    <p>Sometimes, diagnosis could be very time-consuming and you exactly don’t know what actually the fault is there in your computer, we are happy to help. You are no longer helpless when you have our remote assistants at your help.</p>
- 
-  </div>
-  <div class="sixteen wide mobile eight wide tablet four wide computer column">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Virus removal</h2>
-    <p>Viruses and malwares are worst thing can happen to your computer. They make our computers idle and useless. Sometimes they cause data removal or such type of horrible things when our data is confidential and so crucial. But don’t worry, if you face such troubles, you can simply contact our remote assistant and get the virus removed from your computer.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Troubleshooting</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Installation and Configuration</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Mail Setup</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Backup and Restore</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Optimization</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">System Update</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-  <div class="sixteen wide mobile equal width eight wide tablet equal width four wide computer column equal width">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h2 class="ui centered">Data Privacy</h2>
-    <p>What’ll you do if all of a sudden your computer stops working and you don’t know how to make it functional again? In any of the worst case scenarios, you can contact our assistant and get your problems fixed. That’s what are we here for. We’ll make sure you get the best solution.</p>
- 
-  </div>
-</div>
-    </div>
-    </div>
-    <h1></h1>
-    <div class="ui container">  
-     <h1 class="header">Artificial Intelligence</h1>
-          <div class="ui divider"></div>
-         <div class="ui center aligned container ">
-    <h3>Inteliqo is working towards making troubleshooting of systems making more AI (Artificial intelligence ) focused. The AI + human touch will sync in the expertise of live agents with virtual agents to ramp up solutions and lower the costs.</h3>
-   
+<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
     
-<div class="ui grid width">
-  <div class="sixteen wide mobile eight wide tablet eight wide computer column">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
- <h3 class="ui centered"></h3>
-    <p>It seamlessly gives consumers the right information; they need at the right time by offering self-service options, eliminating the need for a call to customer centre.</p>
- 
-  </div>
-  <div class="sixteen wide mobile eight wide tablet eight wide computer column">
-       <img class="ui centered medium circular image" src="./images/square-image.png">
-       <h3 class="ui centered"></h3>
-    <p>AI gives customer service representatives more information to help them handle the complicated issues that self-service cannot resolve, since its more data driven.</p>
- 
-  </div>
-  
-</div>
-    </div>
-    </div>
+	<div id="preloader">
+		<div class="preloader">
+            <div class="footer-logo">
+						<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+					</div>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+            <span></span>
+            <span></span>
+		</div>
+	</div>
     
-    
+	<!-- /Preloader -->
 
-<div class="ui  vertical footer segment">
-  <div class="ui center aligned container">
-    <div class="ui section divider"></div>
-    <img src="./images/logo.png" class="ui centered mini image">
-    <div class="ui horizontal small divided link list">
-      <a class="item">© 2018 All Rights Reserved; Ascentreck.com Terms & Conditions</a>
-    </div>
-  </div>
-</div>
-</div>
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 
- 
+</body>
 
-    <script src="./js/jquery.min.js"></script>
-
-  <script src="./js/easing.min.js"></script>
-  
-<script src="./js/semantic.min.js"></script>
-
-  <script src="./js/docs.js"></script>
-  <script src="./js/home.js"></script>
-   
-    </body></html>
+</html>
